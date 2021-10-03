@@ -8,7 +8,7 @@ body, html {
     font-family: 'Roboto Slab', serif;
 }
 
-.home {
+.content {
     margin-left: 22%;
     margin-right: 22%;
 }
@@ -45,7 +45,7 @@ a:link:hover {
 }
 
 @media screen and (max-width: 1000px) {
-    .home {
+    .content {
         margin-left: 3%;
         margin-right: 3%;
     }
@@ -54,7 +54,7 @@ a:link:hover {
     body, .lang, .font-sm {
         font-size: 80%;
     }
-    .home {
+    .content {
         margin-left: 1%;
         margin-right: 1%;
     }
