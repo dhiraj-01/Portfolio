@@ -5,7 +5,7 @@ body, html {
     padding: 0;
     font-size: 1.1rem;
     overflow-x: hidden;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', 'Cambria', 'Lucida Bright', monospace, sans-serif;
 }
 
 .content {
@@ -19,13 +19,14 @@ body, html {
     font-size: 1rem;
 }
 
+/* rating color */
 .yellow {
     color: #FFBF00;
 }
 .blue {
     color: #0000FF;
 }
-
+/* link */
 a:link {
     text-decoration: none;
 }
@@ -35,6 +36,8 @@ a:link:hover {
 .line-normal {
     line-height: normal;
 }
+
+/* project language */
 .lang {
     margin: 3px;
     padding: 2px 5px;
@@ -44,6 +47,7 @@ a:link:hover {
     border-radius: 5%;
 }
 
+/* mobile view */
 @media screen and (max-width: 1000px) {
     .content {
         margin-left: 3%;
@@ -58,4 +62,19 @@ a:link:hover {
         margin-left: 1%;
         margin-right: 1%;
     }
+}
+
+/* dark mode */
+body.dark-theme {
+    color: #eee;
+    background: #121212;
+}
+body.dark-theme table {
+    color: #eee;
+}
+body.dark-theme a {
+    color: #809fff;
+}
+body.dark-theme .nav button {
+    color: #809fff;
 }
