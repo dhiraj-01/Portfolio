@@ -15,11 +15,8 @@ body, html {
 .bold {
     font-weight: bold;
 }
-.title {
-    font-size: 3rem;
-}
 .font-sm {
-    font-size: 1rem
+    font-size: 1rem;
 }
 
 .yellow {
@@ -51,5 +48,14 @@ a:link:hover {
     .home {
         margin-left: 3%;
         margin-right: 3%;
+    }
+}
+@media screen and (max-width: 500px) {    
+    body, .lang, .font-sm {
+        font-size: 80%;
+    }
+    .home {
+        margin-left: 1%;
+        margin-right: 1%;
     }
 }
