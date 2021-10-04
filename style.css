@@ -12,6 +12,18 @@ body, html {
     margin-left: 22%;
     margin-right: 22%;
 }
+.project .title {
+    color: coral;
+}
+.project .lang {
+    margin: 3px;
+    padding: 2px 5px;
+    font-size: 0.9rem;
+    background-color: #3e92ec;
+    color: #fff;
+    border-radius: 5%;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -37,16 +49,6 @@ a:link:hover {
     line-height: normal;
 }
 
-/* project language */
-.lang {
-    margin: 3px;
-    padding: 2px 5px;
-    font-size: 0.9rem;
-    background-color: #3e92ec;
-    color: #fff;
-    border-radius: 5%;
-}
-
 /* mobile view */
 @media screen and (max-width: 1000px) {
     .content {
@@ -55,7 +57,7 @@ a:link:hover {
     }
 }
 @media screen and (max-width: 500px) {    
-    body, .lang, .font-sm {
+    body, .project .lang, .font-sm {
         font-size: 80%;
     }
     .content {
@@ -73,8 +75,5 @@ body.dark-theme table {
     color: #eee;
 }
 body.dark-theme a {
-    color: #809fff;
-}
-body.dark-theme .nav button {
     color: #809fff;
 }
