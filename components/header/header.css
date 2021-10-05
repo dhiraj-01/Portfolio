@@ -5,6 +5,10 @@
 .header-dropdown .menu {
     width: 100%;
 }
+.header-dropdown .menu .item {
+    margin-left: 0.5rem;
+}
+
 body.dark-theme .header-dropdown .title {
     color: #121212;
     background-color: #eee;

@@ -36,6 +36,9 @@ body.dark-theme a {
 
 /* media query */
 @media screen and (max-width: 1000px) {
+    body {
+        font-size: 98%;
+    }
     .content {
         margin-left: 3%;
         margin-right: 3%;
