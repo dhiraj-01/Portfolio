@@ -1,0 +1,11 @@
+/* header dropdown */
+.header-dropdown .title {
+    width: 100%;
+}
+.header-dropdown .menu {
+    width: 100%;
+}
+body.dark-theme .header-dropdown .title {
+    color: #121212;
+    background-color: #eee;
+}

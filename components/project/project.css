@@ -1,0 +1,11 @@
+.project .title {
+    color: coral;
+}
+.project .tech {
+    margin: 0.2rem;
+    padding: 0.2rem 0.3rem;
+    font-size: 0.7em;
+    color: #fff;
+    border-radius: 5%;
+    background-color: #3e92ec;
+}
