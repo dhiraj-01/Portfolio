@@ -1,0 +1,107 @@
+<div>
+    <header class="mb-3 header nav justify-content-center hide-toogle">
+        <div class="laptop nav nav-tabs" role="tablist">
+            <!-- Home -->
+            <button class="nav-link active" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"
+                onclick="load('home')">
+                <i class="fas fa-home"></i>
+                Home
+            </button>
+            <!-- Work Experience -->
+
+            <!-- Skills -->
+            <button class="nav-link" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+                onclick="load('skill')">
+                <i class="fas fa-code"></i>
+                Skills
+            </button>
+            <!-- Projects -->
+            <button class="nav-link" id="nav-projects-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+                onclick="load('project')">
+                <i class="fas fa-tasks"></i>
+                Projects
+            </button>
+            <!-- Education -->
+            <button class="nav-link" id="nav-education-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+                onclick="load('education')">
+                <i class="fas fa-user-graduate"></i>
+                Education
+            </button>
+            <!-- Achivements -->
+            <button class="nav-link" id="nav-achivements-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+                onclick="load('achivement')">
+                <i class="fas fa-trophy"></i>
+                Achivements
+            </button>
+            <!-- Contact -->
+            <button class="nav-link" id="nav-Contact-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+                onclick="load('contact')">
+                <i class="far fa-address-card"></i>
+                Contact
+            </button>
+            <!-- Dark Mode -->
+            <button class="nav-link" onclick="darkModeToogle()">
+                <i class="fas fa-adjust"></i>
+            </button>
+        </div>
+    </header>
+
+    <header class="header hide mobile">
+        <div class="dropdown">
+            <a class="dropdown-title border btn dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li aria-selected="true">
+                    <!-- Home -->
+                    <button class="dropdown-item" onclick="load('home')">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </button>
+                </li>
+                <li>
+                    <!-- Skills -->
+                    <button class="dropdown-item" onclick="load('skill')">
+                        <i class="fas fa-code"></i>
+                        Skills
+                    </button>
+                </li>
+                <li>
+                    <!-- Projects -->
+                    <button class="dropdown-item" onclick="load('project')">
+                        <i class="fas fa-tasks"></i>
+                        Projects
+                    </button> 
+                </li>
+                <li>
+                    <!-- Education -->
+                    <button class="dropdown-item" onclick="load('education')">
+                        <i class="fas fa-user-graduate"></i>
+                        Education
+                    </button>
+                </li>
+                <li>
+                    <!-- Achivements -->
+                    <button class="dropdown-item" onclick="load('achivement')">
+                        <i class="fas fa-trophy"></i>
+                        Achivements
+                    </button>
+                </li>
+                <li>
+                    <!-- Contact -->
+                    <button class="dropdown-item" onclick="load('contact')">
+                        <i class="far fa-address-card"></i>
+                        Contact
+                    </button>
+                </li>
+                <li>
+                    <!-- Dark Mode -->
+                    <button class="dropdown-item" onclick="darkModeToogle()">
+                        <i class="fas fa-adjust"></i>
+                        Dark Mode
+                    </button>
+                </li>
+            </ul>
+          </div>
+    </header>
+</div>
