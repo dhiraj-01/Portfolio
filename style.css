@@ -46,8 +46,11 @@ body.dark-theme a {
 }
 
 @media screen and (max-width: 800px) {    
-    body, .header-dropdown .title, .header-dropdown .menu {
+    body {
         font-size: 85%;
+    }
+    .header-dropdown .title, .header-dropdown .menu {
+        font-size: 98%;
     }
     .content {
         margin-left: 1%;
