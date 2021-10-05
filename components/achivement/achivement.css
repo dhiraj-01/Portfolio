@@ -1,7 +1,14 @@
+.achivement .menu {
+    line-height: normal;
+}
+body.dark-theme .achivement .menu {
+    color: #eee;
+}
+
 /* rating color */
-.yellow {
+.codechef {
     color: #FFBF00;
 }
-.blue {
+.codeforces {
     color: #0000FF;
 }
