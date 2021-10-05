@@ -35,31 +35,31 @@ body.dark-theme a {
 }
 
 /* media query */
-@media screen and (max-width: 1000px) {
-    body {
-        font-size: 98%;
-    }
-    .content {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-}
-
-@media screen and (max-width: 800px) {    
+@media only screen and (max-width: 600px) {
     body {
         font-size: 85%;
     }
-    .header-dropdown .title, .header-dropdown .menu {
-        font-size: 98%;
-    }
     .content {
-        margin-left: 1%;
-        margin-right: 1%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .header-dropdown .title, .header-dropdown .menu {
+        font-size: 95%;
     }
     .hide {
         display: initial;
     }
     .header .header-tab {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        font-size: 95%;
+    }
+    .content {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
