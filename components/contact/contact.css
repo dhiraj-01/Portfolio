@@ -1,3 +1,6 @@
 .contact {
     line-height: normal;
 }
+.contact .link {
+    word-wrap: break-word;
+}
