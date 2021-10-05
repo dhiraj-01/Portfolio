@@ -4,12 +4,12 @@ let contentEle = document.getElementById("content");
 
 // components
 let headerComponent = new Component('header', headerEle);
-let homeComponent = new Component('home', contentEle);
-let currentComponent = homeComponent;
+let aboutComponent = new Component('about', contentEle);
+let currentComponent = aboutComponent;
 
 // load header & home
 headerComponent.loadComponent();
-homeComponent.loadComponent();
+aboutComponent.loadComponent();
 
 async function load(name) {
     if(currentComponent.name != name) {
@@ -18,6 +18,13 @@ async function load(name) {
         await comp.loadComponent();
         currentComponent = comp;
     }
+}
+function knowMore() {
+    load('project');
+    let aboutTabEle = document.getElementById('header-tab-about');
+    aboutTabEle.classList.remove('active');
+    let projectTabEle = document.getElementById('header-tab-projects');
+    projectTabEle.classList.add('active');
 }
 
 // dark mode toogle

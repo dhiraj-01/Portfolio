@@ -42,7 +42,7 @@ body.dark-theme a {
     }
 }
 @media screen and (max-width: 1000px) {
-    body {
+    body, .about .know-more {
         font-size: 95%;
     }
     .content {
@@ -51,7 +51,7 @@ body.dark-theme a {
     }
 }
 @media screen and (max-width: 600px) {
-    body {
+    body, .about .know-more {
         font-size: 85%;
     }
     .content {

@@ -7,10 +7,10 @@
             </a>
             <ul class="menu dropdown-menu" aria-labelledby="header-dropdown">
                 <li aria-selected="true">
-                    <!-- Home -->
-                    <button class="dropdown-item" onclick="load('home')">
+                    <!-- About -->
+                    <button class="dropdown-item" onclick="load('about')">
                         <i class="fas fa-home"></i>
-                        <span class="item">Home</span>
+                        <span class="item">About</span>
                     </button>
                 </li>
                 <li>
@@ -62,40 +62,40 @@
     <!-- header tab -->
     <header class="header-tab mb-3 nav justify-content-center">
         <div class="header-tab nav nav-tabs" role="tablist">
-            <!-- Home -->
-            <button class="nav-link active" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"
-                onclick="load('home')">
+            <!-- About -->
+            <button class="nav-link active" id="header-tab-about" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"
+                onclick="load('about')">
                 <i class="fas fa-home"></i>
-                Home
+                About
             </button>
             <!-- Work Experience -->
 
             <!-- Skills -->
-            <button class="nav-link" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+            <button class="nav-link" id="header-tab-skills" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
                 onclick="load('skill')">
                 <i class="fas fa-code"></i>
                 Skills
             </button>
             <!-- Projects -->
-            <button class="nav-link" id="nav-projects-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+            <button class="nav-link" id="header-tab-projects" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
                 onclick="load('project')">
                 <i class="fas fa-tasks"></i>
                 Projects
             </button>
             <!-- Education -->
-            <button class="nav-link" id="nav-education-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+            <button class="nav-link" id="header-tab-education" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
                 onclick="load('education')">
                 <i class="fas fa-user-graduate"></i>
                 Education
             </button>
             <!-- Achivements -->
-            <button class="nav-link" id="nav-achivements-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+            <button class="nav-link" id="header-tab-achivements" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
                 onclick="load('achivement')">
                 <i class="fas fa-trophy"></i>
                 Achivements
             </button>
             <!-- Contact -->
-            <button class="nav-link" id="nav-Contact-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+            <button class="nav-link" id="header-tab-contact" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
                 onclick="load('contact')">
                 <i class="far fa-address-card"></i>
                 Contact
