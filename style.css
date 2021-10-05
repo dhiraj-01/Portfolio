@@ -25,7 +25,7 @@ a:link:hover {
 .line-normal {
     line-height: normal;
 }
-.hide {
+.hide, .mobile {
     display: none;
 }
 
