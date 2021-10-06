@@ -19,12 +19,13 @@ async function load(name) {
         currentComponent = comp;
     }
 }
+
 function knowMore() {
     load('project');
     let aboutTabEle = document.getElementById('header-tab-about');
-    aboutTabEle.classList.remove('active');
+    if(aboutTabEle) aboutTabEle.classList.remove('active');
     let projectTabEle = document.getElementById('header-tab-projects');
-    projectTabEle.classList.add('active');
+    if(projectTabEle) projectTabEle.classList.add('active');
 }
 
 // dark mode toogle

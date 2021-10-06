@@ -1,3 +1,12 @@
+/* header tabs */
+.header-tab .nav-tabs {
+    border-bottom: 1px solid grey;
+}
+.header-tab .nav-tabs .nav-link.active {
+    border: 1px solid grey;
+    border-bottom: transparent;
+}
+
 /* header dropdown */
 .header-dropdown .title {
     width: 100%;
