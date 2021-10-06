@@ -1,31 +1,43 @@
 // header & content element
 let headerEle = document.getElementById("header");
+let footerEle = document.getElementById("footer");
 let contentEle = document.getElementById("content");
 
-// components
+// header & footer
 let headerComponent = new Component('header', headerEle);
-let aboutComponent = new Component('about', contentEle);
-let currentComponent = aboutComponent;
-
-// load header & home
+let footerComponent = new Component('footer', footerEle);
 headerComponent.loadComponent();
-aboutComponent.loadComponent();
+footerComponent.loadComponent();
 
+let currentComponent = null;
+// load into content area
 async function load(name) {
-    if(currentComponent.name != name) {
+    if(currentComponent) {
         currentComponent.removeComponent();
-        let comp = new Component(name, contentEle);
-        await comp.loadComponent();
-        currentComponent = comp;
     }
+    let comp = new Component(name, contentEle);
+    await comp.loadComponent();
+    currentComponent = comp;
 }
+load('about');
 
-function knowMore() {
-    load('project');
-    let aboutTabEle = document.getElementById('header-tab-about');
-    if(aboutTabEle) aboutTabEle.classList.remove('active');
-    let projectTabEle = document.getElementById('header-tab-projects');
-    if(projectTabEle) projectTabEle.classList.add('active');
+let headerTabId = {
+    about: 'header-tab-about',
+    skill: 'header-tab-skills',
+    project: 'header-tab-projects',
+    education: 'header-tab-education',
+    achivement: 'header-tab-achivements',
+    contact: 'header-tab-contact',
+};
+
+function show(name) {
+    load(name);
+    for(let id in headerTabId) {
+        let tabEle = document.getElementById(headerTabId[id]);
+        if(tabEle) tabEle.classList.remove('active');
+    }
+    let tabEle = document.getElementById(headerTabId[name]);
+    if(tabEle) tabEle.classList.add('active');
 }
 
 // dark mode toogle

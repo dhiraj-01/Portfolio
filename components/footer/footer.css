@@ -1,0 +1,14 @@
+.footer a {
+    font-size: large;
+    margin-left: 10px;
+}
+.footer .title {
+    font-size: 1em;
+}
+.footer a:hover {
+    text-decoration: none;
+    color: black;
+}
+.dark-theme .footer a:hover {
+    color: #eee;
+}

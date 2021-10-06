@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
 
 body, html {
     margin: 0;
     padding: 0;
+    height: 100vh;
     font-size: 1.1rem;
     overflow-x: hidden;
+    display: flex; 
+    flex-direction: column;
     font-family: 'Roboto Slab', 'Cambria', 'Lucida Bright', monospace, sans-serif;
 }
 .content {
@@ -17,7 +20,6 @@ body, html {
 .hide {
     display: none;
 }
-
 a:link {
     text-decoration: none;
 }
@@ -26,11 +28,15 @@ a:link:hover {
 }
 
 /* dark mode */
-body.dark-theme {
+.dark-theme {
     color: #eee;
     background: #121212;
+    font-weight: 300;
 }
-body.dark-theme a {
+.dark-theme .bold {
+    font-weight: 400;
+}
+.dark-theme a {
     color: #809fff;
 }
 
@@ -67,4 +73,8 @@ body.dark-theme a {
     .header .header-tab {
         display: none;
     }
+}
+
+footer {
+    margin-top: auto; 
 }
