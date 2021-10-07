@@ -77,14 +77,15 @@ class Component {
     // component
     async loadComponent() {
         // console.log(`Loading ${this.name} component`);
+        // this.element.innerHTML = `<i class="fas fa-spinner"></i> &nbsp; Loading ${this.name} section`;
         await this.loadHtml();
         await this.loadCss();
         await this.loadJs();
     }
-    removeComponent() {
+    async removeComponent() {
         // console.log(`Removing ${this.name} component`);
         this.removeHtml();
-        this.removeCss();
-        this.removeJs();
+        await this.removeCss();
+        await this.removeJs();
     }
 }
