@@ -42,7 +42,10 @@ function show(name) {
 function darkModeToogle() {
     document.body.classList.toggle("dark-theme");
 }
-let stop = setInterval(darkModeToogle, 500);
-setTimeout(() => {
-    clearInterval(stop);
-}, 1000);
+
+let date = new Date();
+console.log(date.getHours());
+
+if(date.getHours() >= 19) { // > 7 PM
+    darkModeToogle();
+}

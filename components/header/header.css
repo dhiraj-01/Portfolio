@@ -38,7 +38,10 @@
 /* dark mode - tab */
 .dark-theme .header-tab .nav-link {
     color: aquamarine;
+    font-weight: 300;
 }
 .dark-theme .header-tab .nav-link.active {
-    color: #121212;
+    background: none;
+    font-weight: 400;
+    color: whitesmoke;
 }
