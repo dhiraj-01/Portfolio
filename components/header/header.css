@@ -32,16 +32,17 @@
     color: #121212;
     background-color: #eee;
 }
-.dark-theme .dark-mode-btn {
-    color: #809fff;
-}
 /* dark mode - tab */
 .dark-theme .header-tab .nav-link {
-    color: aquamarine;
-    font-weight: 300;
+    color: rgb(170, 170, 170);
 }
 .dark-theme .header-tab .nav-link.active {
     background: none;
     font-weight: 400;
-    color: whitesmoke;
+    color: #121212;
+    background-color: #eee;
+}
+
+.dark-theme .dark-mode-btn {
+    color: #809fff;
 }
