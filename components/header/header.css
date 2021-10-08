@@ -37,10 +37,9 @@
     color: rgb(170, 170, 170);
 }
 .dark-theme .header-tab .nav-link.active {
-    background: none;
     font-weight: 400;
-    color: #121212;
-    background-color: #eee;
+    background: none;
+    color: #809fff;
 }
 
 .dark-theme .dark-mode-btn {
