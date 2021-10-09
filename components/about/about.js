@@ -1,18 +1,21 @@
-let i = 0;
-let speed = 70;
-let txt = "Dhiraj Govindvira.";
-let nameEle = document.getElementById("name");
-
-function typeWriter() {
-    if (i < txt.length) {
-        nameEle.innerText = txt.substring(0, i + 1);
-        if(i + 1 < txt.length) {
-            nameEle.innerText += "|";
+{
+    let i = 0;
+    const speed = 70;
+    const txt = "Dhiraj Govindvira.";
+    let nameEle = document.getElementById("name");
+    function typeWriter() {
+        if (i < txt.length) {
+            if(nameEle) {
+                nameEle.innerText = txt.substring(0, i + 1);
+                if(i + 1 < txt.length) {
+                    nameEle.innerText += "|";
+                }
+            }
+            i++;
         }
-        i++;
-    }
-    else {
-        clearInterval(stop);
-    }
-};
-let stop = setInterval(typeWriter, speed);
+        else {
+            clearInterval(stop);
+        }
+    };
+    stop = setInterval(typeWriter, speed);
+}

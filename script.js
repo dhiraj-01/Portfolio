@@ -3,21 +3,21 @@ let headerEle = document.getElementById("header");
 let footerEle = document.getElementById("footer");
 let contentEle = document.getElementById("content");
 
+new Component('header', headerEle).loadComponent();
+new Component('footer', footerEle).loadComponent();
+
 // load into content area
 let currentComponent = null;
-
-async function load(name, ele = contentEle) {
+async function load(name) {
     if(currentComponent) {
         if(currentComponent.name == name) return;
         currentComponent.removeComponent();
     }
-    let comp = new Component(name, ele);
-    await comp.loadComponent();
+    let comp = new Component(name, contentEle);
+    comp.loadComponent();
     currentComponent = comp;
 }
-load('header', headerEle);
-load('footer', footerEle);
-load('about', contentEle);
+load('about');
 
 let headerTabId = {
     about: 'header-tab-about',
@@ -29,7 +29,7 @@ let headerTabId = {
 };
 
 function show(name) {
-    load(name, contentEle);
+    load(name);
     for(let id in headerTabId) {
         let tabEle = document.getElementById(headerTabId[id]);
         if(tabEle) tabEle.classList.remove('active');
@@ -42,10 +42,7 @@ function show(name) {
 function darkModeToogle() {
     document.body.classList.toggle("dark-theme");
 }
-
 let date = new Date();
-console.log(date.getHours());
-
 if(date.getHours() >= 19) { // > 7 PM
     darkModeToogle();
 }
