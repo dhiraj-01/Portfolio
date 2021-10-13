@@ -1,8 +1,11 @@
 .achivement .menu {
     line-height: normal;
 }
-body.dark-theme .achivement .menu {
+.dark-theme .achivement .menu {
     color: #eee;
+}
+.dark-theme .achivement .title {
+    color: #48e5c2;
 }
 
 /* rating color */

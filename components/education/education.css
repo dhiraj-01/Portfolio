@@ -2,6 +2,6 @@
     font-size: 0.9em;
 }
 .dark-theme .education .course {
-    color: rgb(188, 255, 233);
-    font-weight: 300;
+    /* color: rgb(188, 255, 233); */
+    color: #48e5c2;
 }

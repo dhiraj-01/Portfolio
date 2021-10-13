@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;350;400&display=swap');
 
 body, html {
     margin: 0;
@@ -34,7 +34,7 @@ a:link:hover {
     font-weight: 300;
 }
 .dark-theme .bold {
-    font-weight: 400;
+    font-weight: 350;
 }
 .dark-theme a {
     color: #809fff;
