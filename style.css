@@ -9,10 +9,16 @@ body, html {
     display: flex; 
     flex-direction: column;
     font-family: 'Roboto Slab', 'Cambria', 'Lucida Bright', monospace, sans-serif;
+    background: url('assets/bg-white.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .content {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 21%;
+    margin-right: 21%;
+}
+footer {
+    margin-top: auto;
 }
 .bold {
     font-weight: bold;
@@ -32,6 +38,9 @@ a:link:hover {
     color: #eee;
     background: #121212;
     font-weight: 300;
+    /* background: url('assets/bg-dark1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 .dark-theme .bold {
     font-weight: 350;
@@ -73,8 +82,4 @@ a:link:hover {
     .header .header-tab {
         display: none;
     }
-}
-
-footer {
-    margin-top: auto; 
 }

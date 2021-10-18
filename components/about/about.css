@@ -1,0 +1,6 @@
+.name {
+    color: #06234F;
+}
+.dark-theme .name {
+    color: #eee;
+}
