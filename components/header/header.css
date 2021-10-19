@@ -1,9 +1,10 @@
 /* header tabs */
 .header-tab .nav-tabs {
-    border-bottom: 1px solid grey;
+    border: none;
+    border-bottom: 1px solid gray;
 }
 .header-tab .nav-tabs .nav-link.active {
-    border: 1px solid grey;
+    border: 1px solid gray;
     border-bottom: none;
 }
 
@@ -34,14 +35,13 @@
 }
 /* dark mode - tab */
 .dark-theme .header-tab .nav-link {
-    color: rgb(170, 170, 170);
+    color: rgb(163, 163, 163);
 }
 .dark-theme .header-tab .nav-link.active {
     font-weight: 400;
     background: none;
     color: #809fff;
 }
-
 .dark-theme .dark-mode-btn {
     color: #809fff;
 }

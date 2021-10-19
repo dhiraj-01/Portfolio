@@ -38,9 +38,6 @@ a:link:hover {
     color: #eee;
     background: #121212;
     font-weight: 300;
-    /* background: url('assets/bg-dark1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 .dark-theme .bold {
     font-weight: 350;
