@@ -9,3 +9,10 @@
     border-radius: 5%;
     background-color: #3e92ec;
 }
+.project .timeline {
+    font-size: 0.9em;
+}
+
+.dark-theme .project .title {
+    color: #48e5c2;
+}

@@ -1,6 +1,9 @@
 .education .timeline {
     font-size: 0.9em;
 }
+.education .timeline span {
+    margin-left: 0.3em;
+}
 .dark-theme .education .course {
     /* color: rgb(188, 255, 233); */
     color: #48e5c2;
