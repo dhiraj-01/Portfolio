@@ -4,6 +4,9 @@
 .education .timeline span {
     margin-left: 0.3em;
 }
+.education .title-icon {
+    margin-right: 5px;
+}
 .dark-theme .education .course {
     /* color: rgb(188, 255, 233); */
     color: #48e5c2;

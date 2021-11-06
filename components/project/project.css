@@ -12,7 +12,9 @@
 .project .timeline {
     font-size: 0.9em;
 }
-
+.project .title-icon {
+    margin-right: 5px;
+}
 .dark-theme .project .title {
     color: #48e5c2;
 }

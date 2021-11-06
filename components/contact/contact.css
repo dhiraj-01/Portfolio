@@ -7,6 +7,9 @@
 .contact .site {
     margin-left: 0.3rem;
 }
+.contact .title-icon {
+    margin-right: 5px;
+}
 .dark-theme .contact .title {
     color: #48e5c2;
 }

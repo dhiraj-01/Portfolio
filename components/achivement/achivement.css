@@ -1,6 +1,10 @@
 .achivement .menu {
     line-height: normal;
 }
+.achivement .title-icon {
+    margin-right: 5px;
+}
+
 .dark-theme .achivement .menu {
     color: #eee;
 }

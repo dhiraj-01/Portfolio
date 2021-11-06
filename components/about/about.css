@@ -1,6 +1,9 @@
-.name {
+.about .name {
     color: #06234F;
 }
 .dark-theme .name {
     color: #eee;
+}
+.about .title-icon {
+    margin-right: 5px;
 }
