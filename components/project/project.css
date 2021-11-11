@@ -1,9 +1,17 @@
-.project .title {
-    color: coral;
-    color: #f72585;
+.project .project-icon {
+    margin-right: 5px;
+}
+
+/* project title */
+.project .project-title {
     color: #b5179e;
 }
-.project .tech {
+.dark-mode .project .project-title {
+    color: #48e5c2;
+}
+
+/* project tech */
+.project .project-tech .tech {
     margin: 0.2rem;
     padding: 0.2rem 0.3rem;
     font-size: 0.7em;
@@ -11,12 +19,7 @@
     border-radius: 5%;
     background-color: #3e92ec;
 }
-.project .timeline {
+
+.project .project-timeline {
     font-size: 0.9em;
-}
-.project .title-icon {
-    margin-right: 5px;
-}
-.dark-theme .project .title {
-    color: #48e5c2;
 }

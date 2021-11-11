@@ -1,18 +1,30 @@
+/* icon */
+.contact .contact-icon {
+    margin-right: 5px;
+}
 .contact {
     line-height: normal;
 }
-.contact .link {
+.contact .contact-link a {
     word-wrap: break-word;
 }
-.contact .site {
-    margin-left: 0.3rem;
-}
-.contact .title-icon {
-    margin-right: 5px;
-}
-.contact .coding-profiles {
+
+/* coding profile title */
+.contact .coding-profile {
     color: #b5179e;
 }
-.dark-theme .contact .title {
+.dark-mode .contact .coding-profile {
     color: #48e5c2;
+}
+
+.contact .contact-site i {
+    margin-right: 5px;
+}
+/* custom icon */
+.contact .contact-site .icon {
+    height: 1em;
+    margin-right: 5px;
+}
+.dark-mode .contact .contact-site .icon {
+    filter: invert(1);
 }

@@ -1,17 +1,20 @@
-.achivement .menu {
-    line-height: normal;
-}
-.achivement .title-icon {
+/* icon */
+.achivement .achivement-icon {
     margin-right: 5px;
 }
-.achivement .header-title {
-    color: #b5179e;
-}
 
-.dark-theme .achivement .menu {
+.achivement .achivement-list {
+    line-height: normal;
+}
+.dark-mode .achivement .achivement-list {
     color: #eee;
 }
-.dark-theme .achivement .header-title {
+
+/* header - year & description */
+.achivement .achivement-list .header {
+    color: #b5179e;
+}
+.dark-mode .achivement .achivement-list .header {
     color: #48e5c2;
 }
 

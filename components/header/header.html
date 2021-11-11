@@ -1,67 +1,68 @@
 <div class="header">
     <!-- header dropdown -->
-    <header class="header-dropdown hide">
+    <header class="header-menu hide">
         <div class="flex">
             <div class="dropdown">
-                <a class="title border btn dropdown-toggle" role="button" id="header-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="dropdown-title border btn dropdown-toggle" role="button" id="header-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
                     Menu
                 </a>
-                <ul class="menu dropdown-menu" aria-labelledby="header-dropdown">
+                <ul class="dropdown-menu" aria-labelledby="header-dropdown">
                     <li aria-selected="true">
                         <!-- About -->
                         <button class="dropdown-item" onclick="show('about')">
                             <i class="fas fa-home"></i>
-                            <span class="item">About</span>
+                            <span>About</span>
                         </button>
                     </li>
+                    <!-- Work Experience -->
                     <li>
                         <!-- Skills -->
                         <button class="dropdown-item" onclick="show('skill')">
                             <i class="fas fa-code"></i>
-                            <span class="item">Skills</span>
+                            <span>Skills</span>
                         </button>
                     </li>
                     <li>
                         <!-- Projects -->
                         <button class="dropdown-item" onclick="show('project')">
                             <i class="fas fa-tasks"></i>
-                            <span class="item">Projects</span>
+                            <span>Projects</span>
                         </button> 
                     </li>
                     <li>
                         <!-- Education -->
                         <button class="dropdown-item" onclick="show('education')">
                             <i class="fas fa-user-graduate"></i>
-                            <span class="item">Education</span>
+                            <span>Education</span>
                         </button>
                     </li>
                     <li>
                         <!-- Achivements -->
                         <button class="dropdown-item" onclick="show('achivement')">
                             <i class="fas fa-trophy"></i>
-                            <span class="item">Achivements</span>
+                            <span>Achivements</span>
                         </button>
                     </li>
                     <li>
                         <!-- Contact -->
                         <button class="dropdown-item" onclick="show('contact')">
                             <i class="far fa-address-card"></i>
-                            <span class="item">Contact</span>
+                            <span>Contact</span>
                         </button>
                     </li>
                 </ul>
             </div>
-            <button class="dark-mode-btn btn btn-sm" onclick="darkModeToogle()">
+            <button class="btn btn-sm" onclick="darkModeToogle()">
                 <i class="fas fa-adjust"></i>
             </button>
         </div>
     </header>
 
     <!-- header tab -->
-    <header class="header-tab mb-3 nav justify-content-center">
-        <div class="header-tab nav nav-tabs" role="tablist">
+    <header class="header-tab nav justify-content-center mb-3">
+        <div class="nav nav-tabs" role="tablist">
             <!-- About -->
-            <button class="nav-link active" id="header-tab-about" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"
+            <button class="header-tab-item nav-link active" id="header-tab-about" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"
                 onclick="load('about')">
                 <i class="fas fa-home"></i>
                 About
@@ -69,37 +70,37 @@
             <!-- Work Experience -->
 
             <!-- Skills -->
-            <button class="nav-link" id="header-tab-skills" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+            <button class="header-tab-item nav-link" id="header-tab-skills" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
                 onclick="load('skill')">
                 <i class="fas fa-code"></i>
                 Skills
             </button>
             <!-- Projects -->
-            <button class="nav-link" id="header-tab-projects" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+            <button class="header-tab-item nav-link" id="header-tab-projects" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
                 onclick="load('project')">
                 <i class="fas fa-tasks"></i>
                 Projects
             </button>
             <!-- Education -->
-            <button class="nav-link" id="header-tab-education" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+            <button class="header-tab-item nav-link" id="header-tab-education" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
                 onclick="load('education')">
                 <i class="fas fa-user-graduate"></i>
                 Education
             </button>
             <!-- Achivements -->
-            <button class="nav-link" id="header-tab-achivements" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+            <button class="header-tab-item nav-link" id="header-tab-achivements" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
                 onclick="load('achivement')">
                 <i class="fas fa-trophy"></i>
                 Achivements
             </button>
             <!-- Contact -->
-            <button class="nav-link" id="header-tab-contact" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+            <button class="header-tab-item nav-link" id="header-tab-contact" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
                 onclick="load('contact')">
                 <i class="far fa-address-card"></i>
                 Contact
             </button>
             <!-- Dark Mode -->
-            <button class="nav-link" onclick="darkModeToogle()">
+            <button class="header-tab-item nav-link" onclick="darkModeToogle()">
                 <i class="fas fa-adjust"></i>
             </button>
         </div>

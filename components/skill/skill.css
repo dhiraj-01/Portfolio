@@ -1,7 +1,6 @@
-.skill .title-icon {
+.skill .skill-icon {
     margin-right: 5px;
 }
-.dark-theme .skill .title {
-    /* color: rgb(188, 255, 233); */
+.dark-mode .skill .skill-title {
     color: #48e5c2;
 }

@@ -40,7 +40,7 @@ function show(name) {
 
 // dark mode toogle
 function darkModeToogle() {
-    document.body.classList.toggle("dark-theme");
+    document.body.classList.toggle("dark-mode");
 }
 let date = new Date();
 if(date.getHours() >= 19) { // > 7 PM

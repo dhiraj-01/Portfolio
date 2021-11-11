@@ -1,10 +1,10 @@
+.about .about-icon {
+    margin-right: 5px;
+}
+/* dhiraj govindvira */
 .about .name {
     color: #06234F;
 }
-.dark-theme .name {
-    color: #eee;
+.dark-mode .about .name {
     color: #48e5c2;
-}
-.about .title-icon {
-    margin-right: 5px;
 }
