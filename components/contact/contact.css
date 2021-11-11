@@ -10,6 +10,9 @@
 .contact .title-icon {
     margin-right: 5px;
 }
+.contact .coding-profiles {
+    color: #b5179e;
+}
 .dark-theme .contact .title {
     color: #48e5c2;
 }

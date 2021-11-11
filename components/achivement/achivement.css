@@ -4,11 +4,14 @@
 .achivement .title-icon {
     margin-right: 5px;
 }
+.achivement .header-title {
+    color: #b5179e;
+}
 
 .dark-theme .achivement .menu {
     color: #eee;
 }
-.dark-theme .achivement .title {
+.dark-theme .achivement .header-title {
     color: #48e5c2;
 }
 
