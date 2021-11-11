@@ -1,8 +1,9 @@
-/* icon */
+.achivement {
+    font-size: 1em;
+}
 .achivement .achivement-icon {
     margin-right: 5px;
 }
-
 .achivement .achivement-list {
     line-height: normal;
 }

@@ -1,9 +1,12 @@
-/* icon */
-.contact .contact-icon {
-    margin-right: 5px;
+:root {
+    --margin-5px: 5px;
 }
 .contact {
     line-height: normal;
+    font-size: 1em;
+}
+.contact .contact-icon {
+    margin-right: var(--margin-5px);
 }
 .contact .contact-link a {
     word-wrap: break-word;
@@ -18,12 +21,12 @@
 }
 
 .contact .contact-site i {
-    margin-right: 5px;
+    margin-right: var(--margin-5px);
 }
 /* custom icon */
 .contact .contact-site .icon {
     height: 1em;
-    margin-right: 5px;
+    margin-right: var(--margin-5px);
 }
 .dark-mode .contact .contact-site .icon {
     filter: invert(1);
