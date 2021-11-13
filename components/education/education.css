@@ -1,7 +1,13 @@
 .education {
     font-size: 1em;
 }
-.education .education-icon {
+.education .education-header {
+    color: #b5179e;
+}
+.dark-mode .education .education-header {
+    color: rgb(163, 163, 163);
+}
+.education .education-header .education-icon {
     margin-right: 5px;
 }
 .education .education-timeline {

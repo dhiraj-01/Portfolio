@@ -1,7 +1,13 @@
 .skill {
     font-size: 1em;
 }
-.skill .skill-icon {
+.skill .skill-header {
+    color: #b5179e;
+}
+.dark-mode .skill .skill-header {
+    color: rgb(163, 163, 163);
+}
+.skill .skill-header .skill-icon {
     margin-right: 5px;
 }
 .dark-mode .skill .skill-title {

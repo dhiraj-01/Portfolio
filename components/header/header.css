@@ -11,6 +11,7 @@
 /* active tab */
 .header-tab .header-tab-item.active {
     border: 1px solid gray;
+    font-style: italic;
 }
 .dark-mode .header-tab .header-tab-item.active {
     background: none;

@@ -1,7 +1,10 @@
 .project {
     font-size: 1em;
 }
-.project .project-icon {
+.dark-mode .project .project-header {
+    color: rgb(163, 163, 163);
+}
+.project .project-header .project-icon {
     margin-right: 5px;
 }
 

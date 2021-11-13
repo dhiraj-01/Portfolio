@@ -1,7 +1,10 @@
 .achivement {
     font-size: 1em;
 }
-.achivement .achivement-icon {
+.dark-mode .achivement .achivement-header {
+    color: rgb(163, 163, 163);
+}
+.achivement .achivement-header .achivement-icon {
     margin-right: 5px;
 }
 .achivement .achivement-list {

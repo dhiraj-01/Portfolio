@@ -5,7 +5,13 @@
     line-height: normal;
     font-size: 1em;
 }
-.contact .contact-icon {
+.contact .contact-header {
+    color: #b5179e;
+}
+.dark-mode .contact .contact-header {
+    color: rgb(163, 163, 163);
+}
+.contact .contact-header .contact-icon {
     margin-right: var(--margin-5px);
 }
 .contact .contact-link a {
