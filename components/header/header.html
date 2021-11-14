@@ -1,11 +1,11 @@
-<div class="header">
-    <!-- header dropdown -->
-    <header class="header-menu hide">
-        <div class="flex">
+<div class="header-comp">
+    <!-- header dropdown (mobile screen) -->
+    <div class="header-menu-comp hide">
+        <header class="header-menu">
             <div class="dropdown">
-                <a class="dropdown-title border btn dropdown-toggle" role="button" id="header-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="dropdown-title border btn dropdown-toggle" role="button" id="header-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
                     Menu
-                </a>
+                </div>
                 <ul class="dropdown-menu" aria-labelledby="header-dropdown">
                     <li aria-selected="true">
                         <!-- About -->
@@ -52,58 +52,59 @@
                     </li>
                 </ul>
             </div>
-            <button class="btn btn-sm" onclick="darkModeToogle()">
+            <button class="dark-mode-btn btn btn-sm" onclick="darkModeToogle()">
                 <i class="fas fa-adjust"></i>
             </button>
-        </div>
-    </header>
+        </header>
+    </div>
 
     <!-- header tab -->
-    <header class="header-tab nav justify-content-center mb-3">
-        <div class="nav nav-tabs" role="tablist">
-            <!-- About -->
-            <button class="header-tab-item nav-link active" id="header-tab-about" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"
-                onclick="load('about')">
-                <i class="fas fa-home"></i>
-                About
-            </button>
-            <!-- Work Experience -->
-            <!-- <button>Work Experience</button> -->
-            <!-- Skills -->
-            <button class="header-tab-item nav-link" id="header-tab-skills" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
-                onclick="load('skill')">
-                <i class="fas fa-code"></i>
-                Skills
-            </button>
-            <!-- Projects -->
-            <button class="header-tab-item nav-link" id="header-tab-projects" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
-                onclick="load('project')">
-                <i class="fas fa-tasks"></i>
-                Projects
-            </button>
-            <!-- Education -->
-            <button class="header-tab-item nav-link" id="header-tab-education" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
-                onclick="load('education')">
-                <i class="fas fa-user-graduate"></i>
-                Education
-            </button>
-            <!-- Achivements -->
-            <button class="header-tab-item nav-link" id="header-tab-achivements" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
-                onclick="load('achivement')">
-                <i class="fas fa-trophy"></i>
-                Achivements
-            </button>
-            <!-- Contact -->
-            <button class="header-tab-item nav-link" id="header-tab-contact" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
-                onclick="load('contact')">
-                <i class="far fa-address-card"></i>
-                Contact
-            </button>
-            <!-- Dark Mode -->
-            <button class="header-tab-item nav-link" onclick="darkModeToogle()">
-                <i class="fas fa-adjust"></i>
-            </button>
-        </div>
-        <hr>
-    </header>
+    <div class="header-tab-comp un-hide">
+        <header class="header-tab nav justify-content-center">
+            <div class="nav nav-tabs" role="tablist">
+                <!-- About -->
+                <button class="header-tab-item nav-link active" id="header-tab-about" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"
+                    onclick="load('about')">
+                    <i class="fas fa-home"></i>
+                    About
+                </button>
+                <!-- Work Experience -->
+                <!-- <button>Work Experience</button> -->
+                <!-- Skills -->
+                <button class="header-tab-item nav-link" id="header-tab-skills" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+                    onclick="load('skill')">
+                    <i class="fas fa-code"></i>
+                    Skills
+                </button>
+                <!-- Projects -->
+                <button class="header-tab-item nav-link" id="header-tab-projects" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+                    onclick="load('project')">
+                    <i class="fas fa-tasks"></i>
+                    Projects
+                </button>
+                <!-- Education -->
+                <button class="header-tab-item nav-link" id="header-tab-education" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+                    onclick="load('education')">
+                    <i class="fas fa-user-graduate"></i>
+                    Education
+                </button>
+                <!-- Achivements -->
+                <button class="header-tab-item nav-link" id="header-tab-achivements" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+                    onclick="load('achivement')">
+                    <i class="fas fa-trophy"></i>
+                    Achivements
+                </button>
+                <!-- Contact -->
+                <button class="header-tab-item nav-link" id="header-tab-contact" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"
+                    onclick="load('contact')">
+                    <i class="far fa-address-card"></i>
+                    Contact
+                </button>
+                <!-- Dark Mode -->
+                <button class="header-tab-item nav-link" onclick="darkModeToogle()">
+                    <i class="fas fa-adjust"></i>
+                </button>
+            </div>
+        </header>
+    </div>
 </div>

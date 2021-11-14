@@ -1,23 +1,25 @@
-.project {
+.project-comp {
     font-size: 1em;
 }
-.dark-mode .project .project-header {
+
+/* project header */
+.dark-mode .project-comp .project-header {
     color: rgb(163, 163, 163);
 }
-.project .project-header .project-icon {
+.project-comp .project-header .project-icon {
     margin-right: 5px;
 }
 
 /* project title */
-.project .project-title {
+.project-comp .project-title {
     color: #b5179e;
 }
-.dark-mode .project .project-title {
+.dark-mode .project-comp .project-title {
     color: #48e5c2;
 }
 
 /* project tech */
-.project .project-tech .tech {
+.project-comp .project-tech .tech {
     margin: 0.2rem;
     padding: 0.2rem 0.3rem;
     font-size: 0.7em;
@@ -26,6 +28,7 @@
     background-color: #3e92ec;
 }
 
-.project .project-timeline {
+/* project timeline */
+.project-comp .project-timeline {
     font-size: 0.9em;
 }

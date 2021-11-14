@@ -1,46 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;350;400&display=swap');
 
-body, html {
+* {
     margin: 0;
     padding: 0;
-    height: 100vh;
+}
+body {
     font-size: 1.1rem;
-    overflow-x: hidden;
-    display: flex; 
-    flex-direction: column;
     font-family: 'Roboto Slab', 'Cambria', 'Lucida Bright', monospace, sans-serif;
     background: url('assets/bg/bg-white.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
-.content {
-    margin-left: 21%;
-    margin-right: 21%;
+
+/* content */
+.wrapper {
+    padding: 15px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
-footer {
-    margin-top: auto;
+.wrapper > .main-wrapper {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.wrapper > .main-wrapper > #main-wrapper {
+    width: 45rem;
+}
+
+/* hide & unhide */
 .hide {
     display: none;
 }
-/* bold font */
+.un-hide {
+    display: initial;
+}
+
+/* bold */
 .bold {
     font-weight: bold;
 }
 .dark-mode .bold {
     font-weight: 350;
 }
+
 /* link */
-a:link {
+a {
     text-decoration: none;
+    /* wrap link */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
-a:link:hover {
+a:hover {
     text-decoration: underline;
 }
 .dark-mode a {
     color: #809fff;
 }
-/* dark mode */
+
 .dark-mode {
     color: #eee;
     background: #121212;
@@ -48,39 +70,24 @@ a:link:hover {
 }
 
 /* media query */
-/* laptop */
-@media screen and (max-width: 1200px) {
-    .content {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-}
-/* medium screen */
+/* medium screen width < 1000px */
 @media screen and (max-width: 1000px) {
-    body, .about .know-more {
-        font-size: 95%;
+    body {
+        font-size: 90%;
     }
-    .content {
-        margin-left: 7%;
-        margin-right: 7%;
+    .wrapper > .main-wrapper > #main-wrapper {
+        width: 40rem;
     }
 }
-/* mobile */
+/* mobile width < 600px */
 @media screen and (max-width: 600px) {
-    body, .about .know-more {
+    body {
         font-size: 85%;
-    }
-    .content {
-        margin-left: 0;
-        margin-right: 0;
     }
     .hide {
         display: initial;
     }
-    .header-menu .dropdown .dropdown-title, .header-menu .dropdown .dropdown-menu {
-        font-size: 95%;
-    }
-    .header .header-tab {
+    .un-hide {
         display: none;
     }
 }

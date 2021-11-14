@@ -1,14 +1,18 @@
-.footer {
+.footer-comp {
     font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.footer a {
-    margin-left: 10px;
+.footer-comp a {
+    margin-left: 5px;
+    margin-right: 5px;
 }
-.footer a:hover {
+.footer-comp a:hover {
     text-decoration: none;
     color: black;
 }
-.dark-mode .footer a:hover {
+.dark-mode .footer-comp a:hover {
     text-decoration: none;
     color: #eee;
 }

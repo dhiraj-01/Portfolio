@@ -1,39 +1,18 @@
-:root {
-    --margin-5px: 5px;
-}
-.contact {
-    line-height: normal;
+.contact-comp {
     font-size: 1em;
 }
-.contact .contact-header {
+
+/* contact header */
+.contact-comp .contact-header {
     color: #b5179e;
 }
-.dark-mode .contact .contact-header {
+.dark-mode .contact-comp .contact-header {
     color: rgb(163, 163, 163);
 }
-.contact .contact-header .contact-icon {
-    margin-right: var(--margin-5px);
-}
-.contact .contact-link a {
-    word-wrap: break-word;
+.contact-comp .contact-header .contact-icon {
+    margin-right: 5px;
 }
 
-/* coding profile title */
-.contact .coding-profile {
-    color: #b5179e;
-}
-.dark-mode .contact .coding-profile {
-    color: #48e5c2;
-}
-
-.contact .contact-site i {
-    margin-right: var(--margin-5px);
-}
-/* custom icon */
-.contact .contact-site .icon {
-    height: 1em;
-    margin-right: var(--margin-5px);
-}
-.dark-mode .contact .contact-site .icon {
-    filter: invert(1);
+.contact-comp .contact-site i {
+    margin-right: 5px;
 }

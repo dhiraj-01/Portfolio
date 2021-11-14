@@ -1,19 +1,27 @@
-.about {
+.about-comp {
     font-size: 1em;
 }
-.about .about-header {
+
+/* about header */
+.about-comp .about-header {
     color: #b5179e;
 }
-.dark-mode .about .about-header {
+.dark-mode .about-comp .about-header {
     color: rgb(163, 163, 163);
 }
-.about .about-header .about-icon {
+.about-comp .about-header .about-icon {
     margin-right: 5px;
 }
+
 /* dhiraj govindvira */
-.about .name {
+.about-comp .about-title .name {
     color: #06234F;
 }
-.dark-mode .about .name {
+.dark-mode .about-comp .about-title .name {
     color: #48e5c2;
+}
+
+/* know more */
+.about-comp .about-details .know-more-btn {
+    font-size: 1em;
 }
