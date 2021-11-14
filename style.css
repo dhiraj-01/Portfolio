@@ -3,10 +3,9 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid black; */
 }
 body {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Roboto Slab', 'Cambria', 'Lucida Bright', monospace, sans-serif;
     background: url('assets/bg/bg-white.jpg');
     background-repeat: no-repeat;
@@ -14,6 +13,7 @@ body {
     overflow-x: hidden;
 }
 
+/* content */
 .wrapper {
     padding: 15px;
     min-height: 100vh;
@@ -25,18 +25,22 @@ body {
     padding: 1rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .wrapper > .main-wrapper > #main-wrapper {
-    width: 50rem;
+    width: 45rem;
 }
 
+/* hide & unhide */
 .hide {
     display: none;
 }
 .un-hide {
     display: initial;
 }
+
+/* bold */
 .bold {
     font-weight: bold;
 }
@@ -44,8 +48,13 @@ body {
     font-weight: 350;
 }
 
+/* link */
 a {
     text-decoration: none;
+    /* wrap link */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 a:hover {
     text-decoration: underline;
@@ -61,21 +70,19 @@ a:hover {
 }
 
 /* media query */
-/* medium screen */
+/* medium screen width < 1000px */
 @media screen and (max-width: 1000px) {
     body {
         font-size: 90%;
-        /* background: aqua; */
     }
     .wrapper > .main-wrapper > #main-wrapper {
         width: 40rem;
     }
 }
-/* mobile */
+/* mobile width < 600px */
 @media screen and (max-width: 600px) {
     body {
         font-size: 85%;
-        /* background: bisque; */
     }
     .hide {
         display: initial;

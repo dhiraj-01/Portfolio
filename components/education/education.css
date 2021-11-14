@@ -1,24 +1,27 @@
-.education {
+.education-comp {
     font-size: 1em;
 }
+
 /* education header */
-.education .education-header {
+.education-comp .education-header {
     color: #b5179e;
 }
-.dark-mode .education .education-header {
+.dark-mode .education-comp .education-header {
     color: rgb(163, 163, 163);
 }
-.education .education-header .education-icon {
+.education-comp .education-header .education-icon {
     margin-right: 5px;
 }
+
 /* education timeline */
-.education .education-timeline {
+.education-comp .education-timeline {
     font-size: 0.9em;
 }
-.education .education-timeline i {
+.education-comp .education-timeline i {
     margin-right: 5px;
 }
+
 /* education course */
-.dark-mode .education .education-course .course {
+.dark-mode .education-comp .education-course .course {
     color: #48e5c2;
 }

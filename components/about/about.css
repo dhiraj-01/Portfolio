@@ -1,6 +1,7 @@
 .about-comp {
     font-size: 1em;
 }
+
 /* about header */
 .about-comp .about-header {
     color: #b5179e;
@@ -12,15 +13,15 @@
     margin-right: 5px;
 }
 
-/* know more */
-.about-comp .about-details .know-more-btn {
-    font-size: 1em;
-}
-
 /* dhiraj govindvira */
 .about-comp .about-title .name {
     color: #06234F;
 }
 .dark-mode .about-comp .about-title .name {
     color: #48e5c2;
+}
+
+/* know more */
+.about-comp .about-details .know-more-btn {
+    font-size: 1em;
 }
