@@ -1,6 +1,7 @@
 .education {
     font-size: 1em;
 }
+/* education header */
 .education .education-header {
     color: #b5179e;
 }
@@ -10,12 +11,14 @@
 .education .education-header .education-icon {
     margin-right: 5px;
 }
+/* education timeline */
 .education .education-timeline {
     font-size: 0.9em;
 }
 .education .education-timeline i {
     margin-right: 5px;
 }
+/* education course */
 .dark-mode .education .education-course .course {
     color: #48e5c2;
 }

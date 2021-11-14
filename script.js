@@ -1,7 +1,7 @@
 // header & content element
-let headerEle = document.getElementById("header");
-let footerEle = document.getElementById("footer");
-let contentEle = document.getElementById("content");
+let headerEle = document.getElementById("header-wrapper");
+let mainEle = document.getElementById("main-wrapper");
+let footerEle = document.getElementById("footer-wrapper");
 
 new Component('header', headerEle).loadComponent();
 new Component('footer', footerEle).loadComponent();
@@ -13,7 +13,7 @@ async function load(name) {
         if(currentComponent.name == name) return;
         currentComponent.removeComponent();
     }
-    let comp = new Component(name, contentEle);
+    let comp = new Component(name, mainEle);
     comp.loadComponent();
     currentComponent = comp;
 }

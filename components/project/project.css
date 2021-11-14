@@ -1,6 +1,8 @@
 .project {
     font-size: 1em;
 }
+
+/* project header */
 .dark-mode .project .project-header {
     color: rgb(163, 163, 163);
 }
@@ -26,6 +28,7 @@
     background-color: #3e92ec;
 }
 
+/* project timeline */
 .project .project-timeline {
     font-size: 0.9em;
 }

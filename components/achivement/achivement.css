@@ -1,25 +1,28 @@
 .achivement {
     font-size: 1em;
 }
+/* achivement header */
 .dark-mode .achivement .achivement-header {
     color: rgb(163, 163, 163);
 }
 .achivement .achivement-header .achivement-icon {
     margin-right: 5px;
 }
+
+/* year & description */
+.achivement .achivement-list .achivement-header {
+    color: #b5179e;
+}
+.dark-mode .achivement .achivement-list .achivement-header {
+    color: #48e5c2;
+}
+
+/* list */
 .achivement .achivement-list {
     line-height: normal;
 }
 .dark-mode .achivement .achivement-list {
     color: #eee;
-}
-
-/* header - year & description */
-.achivement .achivement-list .header {
-    color: #b5179e;
-}
-.dark-mode .achivement .achivement-list .header {
-    color: #48e5c2;
 }
 
 /* rating color */
