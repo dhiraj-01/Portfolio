@@ -47,7 +47,7 @@
 
 /* custom coding site icon */
 .achivement-comp .coding-site .site-icon {
-    height: 1em;
+    height: 1.2em;
     margin-right: var(--icon-margin-right);
 }
 .dark-mode .achivement-comp .coding-site .site-icon {
