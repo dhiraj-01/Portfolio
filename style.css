@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;350;400&display=swap');
 
+:root {
+    --purple: #b5179e;
+    --light-green: #48e5c2;
+    --dark-white: #eee;
+    --dark-black: #121212;
+    --dark-link: #809fff;
+    --dark-gray: rgb(163, 163, 163);
+    --icon-margin-right: 5px;
+}
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-size: 1.1rem;
@@ -60,12 +70,12 @@ a:hover {
     text-decoration: underline;
 }
 .dark-mode a {
-    color: #809fff;
+    color: var(--dark-link);
 }
 
 .dark-mode {
-    color: #eee;
-    background: #121212;
+    color: var(--dark-white);
+    background: var(--dark-black);
     font-weight: 300;
 }
 
@@ -73,7 +83,7 @@ a:hover {
 /* medium screen width < 1000px */
 @media screen and (max-width: 1000px) {
     body {
-        font-size: 90%;
+        font-size: 95%;
     }
     .wrapper > .main-wrapper > #main-wrapper {
         width: 40rem;
@@ -82,7 +92,10 @@ a:hover {
 /* mobile width < 600px */
 @media screen and (max-width: 600px) {
     body {
-        font-size: 85%;
+        font-size: 90%;
+    }
+    .wrapper > .main-wrapper > #main-wrapper {
+        width: 100%;
     }
     .hide {
         display: initial;

@@ -4,13 +4,13 @@
 
 /* about header */
 .about-comp .about-header {
-    color: #b5179e;
+    color: var(--purple);
 }
 .dark-mode .about-comp .about-header {
-    color: rgb(163, 163, 163);
+    color: var(--dark-gray);
 }
 .about-comp .about-header .about-icon {
-    margin-right: 5px;
+    margin-right: var(--icon-margin-right);
 }
 
 /* dhiraj govindvira */
@@ -18,7 +18,7 @@
     color: #06234F;
 }
 .dark-mode .about-comp .about-title .name {
-    color: #48e5c2;
+    color: var(--light-green);
 }
 
 /* know more */

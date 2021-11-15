@@ -4,18 +4,18 @@
 
 /* achivement header */
 .dark-mode .achivement-comp .achivement-header {
-    color: rgb(163, 163, 163);
+    color: var(--dark-gray);
 }
 .achivement-comp .achivement-header .achivement-icon {
-    margin-right: 5px;
+    margin-right: var(--icon-margin-right);
 }
 
 /* year & description */
 .achivement-comp .achivement-list .achivement-header {
-    color: #b5179e;
+    color: var(--purple);
 }
 .dark-mode .achivement-comp .achivement-list .achivement-header {
-    color: #48e5c2;
+    color: var(--light-green);
 }
 
 /* achivement list */
@@ -23,7 +23,7 @@
     line-height: normal;
 }
 .dark-mode .achivement-comp .achivement-list {
-    color: #eee;
+    color: var(--dark-white);
 }
 
 /* rating color */
@@ -36,16 +36,16 @@
 
 /* coding profile title */
 .achivement-comp .coding-profile {
-    color: #b5179e;
+    color: var(--purple);
 }
 .dark-mode .achivement-comp .coding-profile {
-    color: #48e5c2;
+    color: var(--light-green);
 }
 
 /* custom coding site icon */
 .achivement-comp .coding-site .site-icon {
     height: 1em;
-    margin-right: 5px;
+    margin-right: var(--icon-margin-right);
 }
 .dark-mode .achivement-comp .coding-site .site-icon {
     filter: invert(1);
