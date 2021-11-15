@@ -29,6 +29,6 @@
         align-items: center;
     }
     .footer-comp .links {
-        margin-bottom: 0.8em;
+        padding: 0.8em;
     }
 }

@@ -33,6 +33,9 @@
 .codeforces {
     color: #0000FF;
 }
+.dark-mode .codeforces {
+    color: lightskyblue;
+}
 
 /* coding profile title */
 .achivement-comp .coding-profile {
