@@ -4,13 +4,13 @@
 
 /* education header */
 .education-comp .education-header {
-    color: #b5179e;
+    color: var(--purple);
 }
 .dark-mode .education-comp .education-header {
-    color: rgb(163, 163, 163);
+    color: var(--dark-gray);
 }
 .education-comp .education-header .education-icon {
-    margin-right: 5px;
+    margin-right: var(--icon-margin-right);
 }
 
 /* education timeline */
@@ -18,10 +18,10 @@
     font-size: 0.9em;
 }
 .education-comp .education-timeline i {
-    margin-right: 5px;
+    margin-right: var(--icon-margin-right);
 }
 
 /* education course */
 .dark-mode .education-comp .education-course .course {
-    color: #48e5c2;
+    color: var(--light-green);
 }
