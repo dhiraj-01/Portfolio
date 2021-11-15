@@ -1,5 +1,5 @@
 .footer-comp {
-    font-size: 1em;
+    font-size: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,6 +29,6 @@
         align-items: center;
     }
     .footer-comp .links {
-        padding: 0.8em;
+        padding: 0.8rem;
     }
 }

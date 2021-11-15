@@ -44,11 +44,10 @@
 }
 .header-menu .dropdown {
     flex: 1;
-    margin-right: 10px;
+    margin-right: var(--icon-margin-right);
 }
 .header-menu .dropdown .dropdown-title {
     width: 100%;
-    font-size: 1em;
 }
 .dark-mode .header-menu .dropdown .dropdown-title {
     color: var(--dark-black);
@@ -56,7 +55,6 @@
 }
 .header-menu .dropdown .dropdown-menu {
     width: 100%;
-    font-size: 1em;
 }
 .header-menu .dropdown .dropdown-menu .dropdown-item i {
     margin-right: var(--icon-margin-right);

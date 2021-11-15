@@ -1,5 +1,5 @@
 .achivement-comp {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 /* achivement header */
@@ -47,7 +47,7 @@
 
 /* custom coding site icon */
 .achivement-comp .coding-site .site-icon {
-    height: 1.2em;
+    height: 1.2rem;
     margin-right: var(--icon-margin-right);
 }
 .dark-mode .achivement-comp .coding-site .site-icon {

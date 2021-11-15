@@ -1,5 +1,5 @@
 .education-comp {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 /* education header */
@@ -15,7 +15,7 @@
 
 /* education timeline */
 .education-comp .education-timeline {
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
 .education-comp .education-timeline i {
     margin-right: var(--icon-margin-right);

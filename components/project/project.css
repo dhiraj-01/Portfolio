@@ -1,5 +1,5 @@
 .project-comp {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 /* project header */
@@ -21,8 +21,8 @@
 /* project tech */
 .project-comp .project-tech .tech {
     margin: 0.2rem;
-    padding: 0.2rem 0.3rem;
-    font-size: 0.7em;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.7rem;
     color: #fff;
     border-radius: 5%;
     background-color: #3e92ec;
@@ -30,5 +30,5 @@
 
 /* project timeline */
 .project-comp .project-timeline {
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
