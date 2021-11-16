@@ -42,6 +42,15 @@ body {
 .wrapper > .main-wrapper > #main-wrapper {
     width: min(42rem, 100%);
 }
+.wrapper > .footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wrapper > .footer-wrapper > #footer-wrapper {
+    width: min(45rem, 100%);
+}
 
 /* hide & unhide */
 .hide {

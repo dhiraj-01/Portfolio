@@ -6,6 +6,7 @@
     border: none;
     border-bottom: 1px solid gray;
 }
+
 /* dark mode tab */
 .dark-mode .header-tab .header-tab-item {
     color: var(--dark-gray);
@@ -27,6 +28,9 @@
 }
 .dark-mode .header-tab .header-tab-item:hover {
     background-color: #252525;
+}
+.header-tab .header-tab-item i {
+    margin-right: 3px;
 }
 
 /* active hover tab */
