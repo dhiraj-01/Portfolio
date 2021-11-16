@@ -77,7 +77,9 @@ class Component {
     // component
     async loadComponent() {
         // console.log(`Loading ${this.name} component`);
-        // this.element.innerHTML = `<i class="fas fa-spinner"></i> &nbsp; Loading ${this.name} section`;
+        if(this.name != 'header' && this.name != 'footer') {
+            this.element.innerHTML = `<i class="fas fa-spinner"></i> &nbsp; Loading ${this.name} section ...`;
+        }
         await this.loadHtml();
         await this.loadCss();
         await this.loadJs();
