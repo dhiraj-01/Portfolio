@@ -24,16 +24,16 @@
 .dark-mode .about-comp .about-title .hi .name {
     color: var(--light-green);
 }
-.about-comp .about-title .sub {
+.about-comp .about-title .role {
     font-size: 1.3rem;
     color: var(--purple);
 }
-.dark-mode .about-comp .about-title .sub {
+.dark-mode .about-comp .about-title .role {
     color: var(--dark-gray);
     font-weight: lighter;
 }
 
 /* know more */
-.about-comp .about-details .know-more-btn {
+.about-comp .about-details .know-more {
     font-size: 0.9rem;
 }
