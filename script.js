@@ -37,21 +37,21 @@ function show(name) {
     load(name);
     for(let id in headerTabId) {
         let tabEle = document.getElementById(headerTabId[id]);
-        if(tabEle) tabEle.classList.remove('active');
+        tabEle?.classList.remove('active');
     }
     let tabEle = document.getElementById(headerTabId[name]);
-    if(tabEle) tabEle.classList.add('active');
+    tabEle?.classList.add('active');
 }
 
 // init
 function start() {
-    let startELe = document.getElementsByClassName("start")[0];
-    let wrapperELe = document.getElementsByClassName("wrapper")[0];
-    if(startELe) startELe.classList.add('hide');
-    if(wrapperELe) wrapperELe.classList.remove('hide');
+    let startELe = document.getElementsByClassName("start")?.[0];
+    let wrapperELe = document.getElementsByClassName("wrapper")?.[0];
+    startELe?.classList.add('hide');
+    wrapperELe?.classList.remove('hide');
 
     // load header, about & footer
-    new Component('header', headerEle).loadComponent();
-    new Component('footer', footerEle).loadComponent();
+    new Component('header', headerEle)?.loadComponent?.();
+    new Component('footer', footerEle)?.loadComponent?.();
     load('about');
 }

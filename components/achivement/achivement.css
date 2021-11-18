@@ -38,6 +38,9 @@
 }
 
 /* coding profile title */
+.achivement-comp .coding-profile i {
+    margin-right: var(--icon-margin-right);
+}
 .achivement-comp .coding-profile {
     color: var(--purple);
 }
