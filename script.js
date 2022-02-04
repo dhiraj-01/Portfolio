@@ -27,6 +27,7 @@ async function load(name) {
 // mobile menu-bar to web tab-bar
 let headerTabId = {
     about: 'header-tab-about',
+    work: 'header-tab-work',
     skill: 'header-tab-skills',
     project: 'header-tab-projects',
     education: 'header-tab-education',

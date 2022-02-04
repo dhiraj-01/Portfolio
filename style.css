@@ -69,7 +69,7 @@ body {
     justify-content: center;
 }
 .wrapper > .main-wrapper > #main-wrapper {
-    width: min(42rem, 100%);
+    width: min(55rem, 100%);
 }
 .wrapper > .footer-wrapper {
     display: flex;
@@ -78,7 +78,7 @@ body {
     justify-content: center;
 }
 .wrapper > .footer-wrapper > #footer-wrapper {
-    width: min(45rem, 100%);
+    width: min(55rem, 100%);
 }
 
 /* bold */

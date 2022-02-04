@@ -1,0 +1,39 @@
+.work-comp {
+    font-size: 1rem;
+}
+
+/* work header */
+.work-comp .work-header {
+    color: var(--purple);
+}
+.dark-mode .work-comp .work-header {
+    color: var(--dark-gray);
+}
+.work-comp .work-header .work-icon {
+    margin-right: var(--icon-margin-right);
+}
+
+/* work timeline */
+.work-comp .work-timeline {
+    font-size: 0.9rem;
+}
+.work-comp .work-timeline i {
+    margin-right: var(--icon-margin-right);
+}
+
+/* work role */
+.dark-mode .work-comp .work-role .role {
+    color: var(--light-green);
+}
+
+.work-comp .work-info {
+    display: flex;
+}
+.work-comp .work-info .logo {
+    height: 6em;
+    padding: 0.5rem;
+    max-width: 100%;
+}
+.dark-mode .work-comp .work-info .logo {
+    filter: invert(1);
+}
