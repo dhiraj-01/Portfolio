@@ -26,14 +26,22 @@
     color: var(--light-green);
 }
 
+/* work info */
 .work-comp .work-info {
     display: flex;
+    font-size: 1rem;
 }
-.work-comp .work-info .logo {
+.work-comp .work-info .work-logo .logo {
     height: 6em;
-    padding: 0.5rem;
-    max-width: 100%;
+    padding: 0.8rem;
+    display: block;
+    box-sizing: border-box;
 }
-.dark-mode .work-comp .work-info .logo {
-    filter: invert(1);
+
+/* amazon logo */
+.work-comp .work-info .work-logo .amazon {
+    content: url("../../assets/icons/amazon.svg");
+}
+.dark-mode .work-comp .work-info .work-logo .amazon {
+    content: url("../../assets/icons/amazon-dark.png");
 }
