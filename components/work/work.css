@@ -38,6 +38,16 @@
     box-sizing: border-box;
 }
 
+/* work tech */
+.work-comp .work-tech .tech {
+    margin: 0.2rem;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.7rem;
+    color: #fff;
+    border-radius: 5%;
+    background-color: #3e92ec;
+}
+
 /* amazon logo */
 .work-comp .work-info .work-logo .amazon {
     content: url("../../assets/icons/amazon.svg");
