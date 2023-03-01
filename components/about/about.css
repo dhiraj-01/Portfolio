@@ -32,9 +32,6 @@
     color: var(--dark-gray);
     font-weight: lighter;
 }
-
-/* know more */
-.about-comp .about-details button {
-    font-size: 0.9rem;
-    margin-right: 0.3rem;
+.dark-mode .resume {
+    color: white;
 }
