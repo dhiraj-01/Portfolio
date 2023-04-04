@@ -2,10 +2,10 @@
  function darkModeToogle() {
     document.body.classList.toggle("dark-mode");
 }
-let date = new Date();
-if(date.getHours() >= 19) { // > 7 PM
-    darkModeToogle();
-}
+// let date = new Date();
+// if(date.getHours() >= 19) { // > 7 PM
+//     darkModeToogle();
+// }
 
 // header & content element
 let headerEle = document.getElementById("header-wrapper");
@@ -19,9 +19,8 @@ async function load(name) {
         if(currentComponent.name == name) return;
         currentComponent.removeComponent();
     }
-    let comp = new Component(name, mainEle);
-    comp.loadComponent();
-    currentComponent = comp;
+    currentComponent = new Component(name, mainEle);
+    currentComponent.loadComponent();
 }
 
 // mobile menu-bar to web tab-bar
