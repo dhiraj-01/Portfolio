@@ -1,4 +1,9 @@
+/* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;350;400&display=swap');
+/* Bootstrap css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css');
+/* Font-awesome css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 :root {
     --purple: #b5179e;
