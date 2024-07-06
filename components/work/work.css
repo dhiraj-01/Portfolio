@@ -55,3 +55,8 @@
 .dark-mode .work-comp .work-info .work-logo .amazon {
     content: url("../../assets/icons/amazon-dark.png");
 }
+
+/* kotak logo */
+.work-comp .work-info .work-logo .kotak {
+    content: url("../../assets/icons/kotak.png");
+}
